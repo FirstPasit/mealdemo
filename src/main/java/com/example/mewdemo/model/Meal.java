@@ -16,6 +16,7 @@ public class Meal {
     String name;
     String description;
     BigDecimal price;
+    @Embedded
     Allergens allergens;
 
     public Long getId() {
